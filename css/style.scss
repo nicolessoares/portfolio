@@ -180,12 +180,15 @@ a {
         align-items: center;
         justify-content: space-between;
         margin-bottom: 16px;
+        flex-wrap: wrap;
+        gap: 24px;
 
         h3 {
           font-size: rem(20);
           color: var(--white);
           font-family: "Space Grotesk", Arial, Helvetica, sans-serif;
           font-weight: 400;
+          margin: 0;
         }
       }
     }
